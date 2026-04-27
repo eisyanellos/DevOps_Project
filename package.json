@@ -1,0 +1,12 @@
+{
+  "name": "devops-student-app",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Building application...'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
