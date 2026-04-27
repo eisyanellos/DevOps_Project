@@ -15,6 +15,6 @@ spec:
       containers:
       - name: student-app
         image: student-app:latest
-        imagePullPolicy: Never
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
